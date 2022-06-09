@@ -1,0 +1,41 @@
+.head{
+    background-color: #242526;
+}
+
+.project-list li{
+    background-color: #242526;
+}
+  
+a {
+    text-decoration: none;
+    color: #139cf8 ;
+}
+
+h1, h2{
+    color: #dee0e5 ;
+}
+
+h4{
+    color: #ffc857;
+}
+p{
+    color: #d1dce8;
+}
+
+.head, .icon-container, .body {
+    border: 3px solid  #3a3b3d;
+    color: cadetblue;
+}
+
+.project-list li .image img{
+    border: 3px solid  #3a3b3d;
+}
+
+body {
+    background-color: #18191a ;
+}
+
+.icon:hover{
+    background-color: #3a3b3c;
+
+}
