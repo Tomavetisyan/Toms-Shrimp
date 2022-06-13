@@ -15,7 +15,6 @@ class Head extends React.Component{
     }
 
     handleClick(body){
-        console.log(body);
         this.props.changeBody(body);
         this.setState({active: body});
     }
@@ -24,15 +23,16 @@ class Head extends React.Component{
         return(
             <div className="head">
                 <div className="head-container">
-                    <div className="left">
+                    <div onClick={() => this.handleClick('Home') } className="left">
                         <i className="fa-solid fa-shrimp"></i>
-                        <h1>Tommy Avetisyan</h1>
+                        <h1>Tom's Shrimp</h1>
                     </div>
                     <div className="type border">
                         <h2 onClick={() => this.handleClick('Neocaridina') } className={this.state.active === 'Neocaridina' ? 'active' : ''}>Neocaridina</h2>
                         <h2 onClick={() => this.handleClick('Caridina')} className={this.state.active === 'Caridina' ? 'active' : ''}>Caridina</h2>
                         <h2 onClick={() => this.handleClick('Oddball')} className={this.state.active === 'Oddball' ? 'active' : ''}>Oddball</h2>
                         <h2 onClick={() => this.handleClick('Crabs')} className={this.state.active === 'Crabs' ? 'active' : ''}>Crabs</h2>
+                        <h2 onClick={() => this.handleClick('Isopods')} className={this.state.active === 'Isopods' ? 'active' : ''}>Isopods</h2>
                     </div>
                 </div>
             </div>

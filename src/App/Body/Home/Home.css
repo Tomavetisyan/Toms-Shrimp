@@ -1,0 +1,65 @@
+.home {
+    display: flex;
+    width: 100%;
+  }
+
+  .home-container{
+    width: 90%;
+    margin: 0px auto 0px auto;
+    text-align: center;
+  }
+
+  .header{
+    margin: 15px;
+  }
+
+  .container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 1px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Home-1 Home-2 Home-4"
+      "Home-1 Home-3 Home-4"
+      "home-5 Home-7 Home-8"
+      "Home-6 Home-7 Home-8"
+      "Home-10 Home-11 Home-12"
+      "Home-10 Home-11 Home-13"
+      "Home-14 Home-9 Home-9"
+      "Home-15 Home-9 Home-9";
+  }
+  .container div{
+    margin: auto;
+  }
+  
+  .Home-1 { grid-area: Home-1; }
+  
+  .Home-2 { grid-area: Home-2; }
+  
+  .Home-3 { grid-area: Home-3; }
+  
+  .Home-4 { grid-area: Home-4; }
+  
+  .home-5 { grid-area: home-5; }
+  
+  .Home-6 { grid-area: Home-6; }
+  
+  .Home-7 { grid-area: Home-7; }
+  
+  .Home-10 { grid-area: Home-10; }
+  
+  .Home-11 { grid-area: Home-11; }
+  
+  .Home-12 { grid-area: Home-12; }
+  
+  .Home-13 { grid-area: Home-13; }
+  
+  .Home-14 { grid-area: Home-14; }
+  
+  .Home-15 { grid-area: Home-15; }
+  
+  .Home-8 { grid-area: Home-8; }
+  
+  .Home-9 { grid-area: Home-9; }
+  
+

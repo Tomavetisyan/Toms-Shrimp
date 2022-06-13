@@ -15,7 +15,6 @@ class Neocaridina extends React.Component{
                                     </div>
                                     <div class="inner">
                                         <h4>{shrimp.name}</h4>
-                                        <p>{shrimp.description}</p>
                                     </div>
                                 </li>
                             )

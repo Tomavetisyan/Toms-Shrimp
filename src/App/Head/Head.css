@@ -20,6 +20,11 @@
     align-items: center;
 }
 
+.left:hover{
+    background-color: #3a3b3c;
+    cursor: pointer;
+}
+
 .left i{
     margin-right: 10px
 }

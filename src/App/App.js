@@ -8,8 +8,8 @@ class App extends React.Component {
   constructor() {
     super();
 
-    this.state = JSON.parse(window.localStorage.getItem('state')) || {
-      body: ''
+    this.state =  {
+      body: 'Home'
     };
 
     this.changeBody = this.changeBody.bind(this);
