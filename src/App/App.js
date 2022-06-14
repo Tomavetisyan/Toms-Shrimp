@@ -5,8 +5,8 @@ import Head from './Head/Head'
 import Body from './Body/Body'
 
 class App extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
 
     this.state =  {
       body: 'Home'
