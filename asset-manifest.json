@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Toms-Shrimp/static/css/main.d30ee592.css",
-    "main.js": "/Toms-Shrimp/static/js/main.32c7b577.js",
+    "main.css": "/Toms-Shrimp/static/css/main.459ecd19.css",
+    "main.js": "/Toms-Shrimp/static/js/main.4e174e13.js",
     "static/media/OEBlueDevil-1.jpg": "/Toms-Shrimp/static/media/OEBlueDevil-1.33f82e009aab5b23bee0.jpg",
     "static/media/Home-1.jpg": "/Toms-Shrimp/static/media/Home-1.b530cf834067c956b2aa.jpg",
     "static/media/Home-12.jpg": "/Toms-Shrimp/static/media/Home-12.4b9ecbf4e6b1eb6460cc.jpg",
@@ -55,11 +55,11 @@
     "static/media/Home-7.jpg": "/Toms-Shrimp/static/media/Home-7.8509ac56620782cc7048.jpg",
     "static/media/Home-9.jpg": "/Toms-Shrimp/static/media/Home-9.da253d2dd6b39416057f.jpg",
     "index.html": "/Toms-Shrimp/index.html",
-    "main.d30ee592.css.map": "/Toms-Shrimp/static/css/main.d30ee592.css.map",
-    "main.32c7b577.js.map": "/Toms-Shrimp/static/js/main.32c7b577.js.map"
+    "main.459ecd19.css.map": "/Toms-Shrimp/static/css/main.459ecd19.css.map",
+    "main.4e174e13.js.map": "/Toms-Shrimp/static/js/main.4e174e13.js.map"
   },
   "entrypoints": [
-    "static/css/main.d30ee592.css",
-    "static/js/main.32c7b577.js"
+    "static/css/main.459ecd19.css",
+    "static/js/main.4e174e13.js"
   ]
 }
