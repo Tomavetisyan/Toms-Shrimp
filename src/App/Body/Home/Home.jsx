@@ -10,7 +10,7 @@ class Home extends React.Component{
                         <h1>Welcome to my hobbies</h1>
                         <h2>Please feel free to explore</h2>
                     </div>
-                    <div class="container">
+                    <div className="container">
                         <div class="Home-1"><img src={require("./HomeSRC/Home-1.jpg")} alt="" /></div>
                         <div class="Home-2"><img src={require("./HomeSRC/Home-2.jpg")} alt="" /></div>
                         <div class="Home-3"><img src={require("./HomeSRC/Home-3.jpg")} alt="" /></div>

@@ -19,6 +19,9 @@ class App extends React.Component {
     this.setState({body:body})
   }
 
+  componentDidMount(){
+    console.log("body:" + this.state.body);
+  }
   render(){
     return (
       <div className='app'>

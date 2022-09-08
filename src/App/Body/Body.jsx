@@ -12,24 +12,29 @@ class Body extends React.Component{
         super(props);
 
         this.state = {
-            currentBody: localStorage.getItem('body')
+            currentBody: localStorage.getItem('body') || this.props.currentBody
           };
 
     }
 
     componentDidUpdate() {
-        if(this.props.currentBody !==this.state.currentBody){
+        if( this.state.currentBody && this.props.currentBody !==this.state.currentBody){
             localStorage.setItem('body', this.props.currentBody)
             this.setState({currentBody: localStorage.getItem('body')})
         }
+        
     
+    }
+    componentDidMount(){
+        console.log(this.state.currentBody);
     }
 
     render(){
         return(
             <div className="body">
-                {this.state.currentBody === 'Home' && <Home />}
+                
                 <div className="projects"> 
+                    {this.state.currentBody === 'Home' && <Home />}
                     {this.state.currentBody === 'Neocaridina' && <Neocaridina />}
                     {this.state.currentBody === 'Caridina' && <Caridina />}
                     {this.state.currentBody === 'Oddball' && <Oddball />}
